@@ -1,14 +1,167 @@
-a{
-	text-decoration: none;
-}
-
+/*****GENERAL*****/
 #wrapper{
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
 
+a{
+	text-decoration: none;
+	color: #0080C0;
+}
+
+body{
+	font-family: 'Raleway',sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+/*****COLORS*****/
+
+h1, h2{
+	color: #fff;
+}
+body{
+	background: #fff;
+	color:#999;
+	
+}
+
+
+
+/*****HEADING*****/
+
+/*light blue header*/
+header{
+	background:#01376C;
+	border-color: #0127BE;
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
 #logo{
 	text-align: center;
 	margin: 0;
+}
+
+h1{
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2{
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+h3{
+	margin: 0 0 1em 0;
+}
+
+/*****NAV*****/
+
+/*Darker blue nav*/
+nav{
+	text-align: center;
+	background-color:#004080 ;
+	margin: 20px 0 0;
+	padding: 10px 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+nav a, nav a:visited{
+	color: #fff;
+}
+
+nav a.selected, nav a:hover{
+	color:#252F3F;
+}
+
+/*****FOOTER*****/
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear:both;
+}
+
+.social-icon{
+	width: 20px;
+	height: 20px;
+	margin: 50px 5px;
+}
+
+/*****PAGE:PORTFLIO*****/
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+/**#gallery li:hover{
+	z-index: 100;
+	-webkit-box-shadow: 0px 1px 15px 0px rgba(50, 50, 51, 0.81);
+	-moz-box-shadow:    0px 1px 15px 0px rgba(50, 50, 51, 0.81);
+	box-shadow:         0px 1px 15px 0px rgba(50, 50, 51, 0.81);
+	-webkit-transform:scale(1.1,1.1);
+	-moz-tranform:scale(1.1,1.1);
+	tranform:scale(1.1,1.1);
+}**/
+
+
+
+
+/*****PAGE:ABOUT*****/
+.profile-photo{
+	display: block;
+	margin: 0 auto 30px;
+	max-width: 150px;
+}
+
+.profile-photo img{
+	max-width: 150px;	
+	border-radius: 100%;
+	border: #ccc solid 5px;
+	-webkit-box-shadow: 0px 1px 15px 0px rgba(50, 50, 51, 0.81);
+	-moz-box-shadow:    0px 1px 15px 0px rgba(50, 50, 51, 0.81);
+	box-shadow:         0px 1px 15px 0px rgba(50, 50, 51, 0.81);
 }
