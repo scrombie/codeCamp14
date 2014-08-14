@@ -1,0 +1,105 @@
+@media screen and (min-width: 480px) {
+	.btop-photo{
+		float: left;
+		display: block;
+		margin: 10px;
+	}
+
+	.profile-photo{
+		float: right;
+		display: block;
+		margin: 0 3px;
+	}
+
+	#instructor>div {
+		clear: left;
+	}
+
+	#basics{
+		float: left;
+		width: 70%;
+	}
+
+	#instructor{
+		float: right;
+		width: 25%;
+		margin-top: -40px;
+	}
+
+	nav{
+		float: right;
+		margin: 1em 2% 0;
+	}
+
+	#bStart{
+		max-width: 30%;
+		display: inline-block;
+
+	}
+
+	#bStart button{
+		padding: 10%;
+		margin: 7% 0 0 10%;
+		font-size: 0.65em;
+	}
+
+	#bar{
+		margin: 0.7% 0;
+		width: 70%;
+		float: right;
+		display: inline-block;
+	}
+
+	#bar .small{
+		height: 100%;
+		margin: auto 0;
+		max-width: 10%
+	}
+
+	#bar .large{
+		max-width: 70%;
+	}
+
+	#bar>span{
+		float: left;
+	}
+
+	#pBar ul li{
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 5%;
+	}
+
+	#pBar ul li:first-child{
+		max-width: 40%;
+		float: left;
+	}
+
+	#pBar button{
+		padding: 5%;
+	}
+
+	#pBar ul li:nth-child(3){
+		max-width: 50%;
+		margin: 0 0 0 3%;
+	}
+
+	#pBar ul li:last-child{
+		vertical-align: middle;
+	}
+
+	#back{
+		float: left;
+		width: 30%;
+	}
+
+	#hello{
+		margin: 10px;
+		margin:5% 15% 0 5%;
+		float: right;
+	}
+
+	h3{
+		text-align: left;
+	}
+}

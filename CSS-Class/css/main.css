@@ -1,0 +1,140 @@
+a[href^="http://"]{
+	color:seagreen;
+}
+
+a[href$=".pdf"]{
+	color: red;	
+}
+a[href$=".doc"]{
+	color: red;	
+}
+
+img[src*="thumb"]{
+	border: 1px solid #FFCCAA;
+	width: 50px;
+	height:50px;
+}
+
+.box{
+	width: 150px;
+	height: 150px;
+	
+}
+
+.red{
+	background-color: red;
+}
+
+.green{
+	background-color: green;
+	position: relative;
+	left:75px;
+	top:-50px;
+	box-shadow: 0px 0px 8px 5px #202020;
+}
+.blue{
+	background-color: blue;
+	position: relative;
+	left:150px;
+	top:-100px;
+	box-shadow: 0px 0px 50px 5px #202020;
+	overflow: hidden;
+}
+
+.brown{
+	background-color: brown;
+	position: relative;
+	left:550px;
+	top:-100px;
+	/*box-shadow: 0px 0px 50px 5px #202020;*/
+	width: 70px;
+	height: 70px;
+}
+
+.brown::before{
+	content:"";
+	width:30px;
+	height:30px;
+	position: absolute;
+	left:-20px;
+	top:-35px;
+	transform:rotate(30deg);
+	background: orange;
+}
+
+.tomato{
+	background-color: tomato;
+	position: relative;
+	left:100px;
+	top:-100px;
+	width:50px;
+	height:50px;
+}
+
+.royalblue{
+	background-color: royalblue;
+	position: relative;
+	left:250px;
+	top:-150px;
+	width:50px;
+	height:50px;
+}
+
+.blue::before{
+	content: "";
+	background: purple;
+	right:-50px;
+	top:-50px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+.blue:after{
+	content:"";
+	background: darkblue;
+	width: 150px;
+	height: 215.132px;
+	right: -50px;
+	bottom: -84.7px;
+	position: absolute;
+	transform:rotate(45deg);
+}
+
+
+#star-six {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	position: relative;
+}
+#star-six:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #CCC;
+	width: 100%;
+}
+
+section{
+	max-width: 640px;
+	height: 500px;
+	background: #FFF;
+	border-radius: 5px 5px 5px 5px;
+	margin: 10% auto;
+	padding: 5%;
+	box-shadow: 0px 0px 50px 5px #707070;
+}
